@@ -1,0 +1,44 @@
+module.exports = {
+	adminId: "666824403216105483",
+	token: "",
+	clientId: "",
+	clientSecret: "",
+	scopes: ["identify", "guilds", "applications.commands"],
+	serverDeafen: true,
+	defaultVolume: 100,
+	permissions: 277083450689,
+	disconnectTime: 30000,
+	twentyFourSeven: true,
+	autoQueue: true,
+	autoPause: true,
+	debug: true,
+	nodes: [
+		{
+			identifier: "Main",
+			host: "meowsmp.ddns.net",
+			port: 2333,
+			password: "meowicelava",
+			retryAmount: 200,
+			retryDelay: 40,
+			secure: false,
+		},
+	],
+	embedColor: "#2f3136",
+	presence: {
+		//https://discord.js.org/#/docs/main/stable/typedef/PresenceData
+		status: "online",
+		activities: [
+			{
+				name: "beautiful musics",
+				type: "LISTENING",
+			},
+		],
+	},
+	iconURL: "https://cdn.discordapp.com/attachments/815497210631290911/1044612892059770980/3dgifmaker75127.gif",
+	iconURLHelp: "https://media.discordapp.net/attachments/1044969553857364048/1044985676699021352/shell32.dll_0154.png",
+	iconURLAddedQueue: "https://media.discordapp.net/attachments/1044969553857364048/1044969789031981087/shell32.dll_0295.png",
+	iconURLSaved: "https://media.discordapp.net/attachments/1044969553857364048/1044978160271376444/shell32.dll_0078.png",
+	iconURLProgram: "https://media.discordapp.net/attachments/1044969553857364048/1044998459180208138/shell32_0002.png",
+	iconURLStopped: "https://media.discordapp.net/attachments/1044969553857364048/1045212279999840316/psr.exe_0005.png"
+
+};

@@ -1,0 +1,47 @@
+{
+  "name": "msound64",
+  "version": "1.0.5-stable",
+  "description": "A powerful music bot for MeowHouse.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "rm-logs": "rm logs.log",
+    "lint": "prettier --check .",
+    "deploy": "node deploy/deployGlobal",
+    "guild": "node deploy/deployGuild",
+    "destroy-guild": "node deploy/destroyGuild",
+    "destroy-global": "node deploy/destroyGlobal",
+    "ddev": "cd dashboard && npm run dev",
+    "dbuild": "cd dashboard && npm run build && npm run export",
+    "dstart": "cd dashboard && npm run start"
+  },
+  "engines": {
+    "node": ">=16.x <=16.16"
+  },
+  "dependencies": {
+    "@discordjs/builders": "^1.3.0",
+    "@discordjs/rest": "^1.3.0",
+    "better-erela.js-apple": "^1.0.5",
+    "better-erela.js-spotify": "1.3.11",
+    "colors": "1.4.0",
+    "discord-api-types": "0.37.20",
+    "discord.js": "^13.x",
+    "erela.js": "^2.4.0",
+    "erela.js-deezer": "^1.0.7",
+    "erela.js-facebook": "^1.0.4",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "moment-duration-format": "^2.3.2",
+    "moment-timezone": "^0.5.39",
+    "ms": "^2.1.3",
+    "node-fetch": "^3.3.0",
+    "os": "^0.1.2",
+    "pretty-ms": "^7.0.1",
+    "rlyrics": "^2.0.1",
+    "winston": "^3.8.2",
+    "youtube-sr": "^4.3.4"
+  },
+  "devDependencies": {
+    "prettier": "2.8.0"
+  }
+}
